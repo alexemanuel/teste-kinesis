@@ -1,6 +1,6 @@
 variable "name"{
     description = "name"
-    default = "stream1"
+    default = "stream2"
 }
 
 variable "shard_count"{
