@@ -15,7 +15,7 @@ phases:
 
   build:
     commands:
-      - terraform apply -auto-approve -var-file
+      - terraform apply -var-file -auto-approve 
 
   post_build:
     commands:
