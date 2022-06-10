@@ -1,20 +1,20 @@
 variable "name"{
-    type = string
+    type = "string"
     description = "name"
     default = "stream1"
 }
 
 variable "shard_count"{
-    type = number
+    type = "number"
     description = "shard_count"
 }
 
 variable "retention_period"{
-    type = number
+    type = "number"
     description = "retention_period" 
 }
 
 variable "stream_mode"{
-    type = string
+    type = "string"
     description = "stream_mode"
 }
