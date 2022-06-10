@@ -7,8 +7,9 @@ phases:
       - "apt install unzip -y"
       - "wget https://releases.hashicorp.com/terraform/1.2.2/terraform_1.2.2_linux_arm64.zip -O terraform.zip"
       - "unzip terraform.zip"
+      - "ls ."
       - "mv terraform /usr/local/bin/"
-      - "terraform version"
+      - "ls /usr/local/bin"
   pre_build:
     commands:
       - terraform init
