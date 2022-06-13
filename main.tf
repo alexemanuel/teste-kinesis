@@ -9,7 +9,7 @@ resource "aws_kinesis_stream" "kinesis_stream2" {
     ]
 
     stream_mode_details {
-        strem_mode = "PROVISIONED"
+        stream_mode = "PROVISIONED"
     }
     tags = {
         nome =  "Alex"
