@@ -4,7 +4,7 @@ resource "aws_kinesis_stream" "kinesis_stream2" {
     retention_period = var.retention_period
 
     shard_level_metrics = [
-        "IncomeBytes",
+        "IncomingBytes",
         "OutgoingBytes"
     ]
 
